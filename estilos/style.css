@@ -45,7 +45,6 @@ button {
 
 .container {
     max-width: 480px;
-    border-radius: 10px;
     overflow: hidden;
 }
 
