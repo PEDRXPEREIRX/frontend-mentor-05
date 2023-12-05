@@ -38,11 +38,15 @@ button {
     border: none;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .container {
     width: 320px;
-    margin-top: 80px;
+    height: 100vh;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: auto;
     position: absolute;
     top: 50%;
     left: 50%;
